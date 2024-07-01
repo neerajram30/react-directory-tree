@@ -1,4 +1,4 @@
 import Treeview from "./src/Treeview";
-import './index.css'
+import './src/index.css'
 
 export default Treeview

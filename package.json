@@ -1,16 +1,17 @@
 {
   "name": "react-directory-tree",
-  "version": "1.0.0",
-  "main": "lib/index.js",
+  "version": "1.0.2",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "build": "tailwindcss -i ./src/index.css -o ./dist/tailwind.css && npx babel src --out-dir lib"
+    "build": "tailwindcss -i ./src/index.css -o ./dist/tailwind.css && npx babel src --out-dir lib"
   },
   "keywords": [],
   "author": "neerajram30",
   "license": "MIT",
   "description": "A resulable folder tree component made with Tailwind CSS",
   "dependencies": {
+    "@heroicons/react": "^2.1.4",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.39",
     "react": "^18.3.1",
